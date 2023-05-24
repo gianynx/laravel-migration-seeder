@@ -6,3 +6,25 @@ $fa-font-path: "../fonts/webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
 @import '~bootstrap/scss/bootstrap';
+
+// header
+header {
+    a.active {
+        border-bottom: 3px solid $active_color;
+    }
+}
+
+// main
+.card {
+    cursor: pointer;
+
+    &:hover {
+        background-color: $cards_bg;
+    }
+}
+
+// footer
+footer {
+    height: 15rem;
+    background-color: $dark_color;
+}

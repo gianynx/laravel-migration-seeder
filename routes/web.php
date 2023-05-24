@@ -14,4 +14,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index'])->name('pages.home');
+
+Route::get('/frecce', function () {
+    return view('pages.frecce');
+})->name('pages.frecce');
+
+Route::get('/intercity', function () {
+    return view('pages.intercity');
+})->name('pages.intercity');
+
+Route::get('/regionale', function () {
+    return view('pages.regionale');
+})->name('pages.regionale');
+
+Route::get('/info', function () {
+    return view('pages.info');
+})->name('pages.info');
