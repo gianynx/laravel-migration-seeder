@@ -22,7 +22,7 @@
                                     <span class="fs-5">{{ $train['arrival_station'] }}</span>
                                 </div>
                                 <div>
-                                    <span class="text-danger fs-4">Partenza:</span>
+                                    <span class="text-danger fs-5">Partenza:</span>
                                     <span class="fs-5">{{ $train['departure_time'] }}</span>
                                 </div>
                                 <div>
