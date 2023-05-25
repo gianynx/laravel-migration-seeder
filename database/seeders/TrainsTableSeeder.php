@@ -35,8 +35,8 @@ class TrainsTableSeeder extends Seeder
                 'holding_name' => 'Trenitalia S.p.A',
                 'departure_station' => 'Roma Tiburtina',
                 'arrival_station' => 'Venezia S. Lucia',
-                'departure_time' => '2023-06-24 09:35:00',
-                'arrival_time' => '2023-06-24 13:38:00',
+                'departure_time' => '2023-07-24 09:35:00',
+                'arrival_time' => '2023-07-24 13:38:00',
                 'number_carriages' => 11,
                 'train_on_time' => false,
                 'delay' => 3,
@@ -49,8 +49,8 @@ class TrainsTableSeeder extends Seeder
                 'holding_name' => 'Trenitalia S.p.A',
                 'departure_station' => 'Venezia S. Lucia',
                 'arrival_station' => 'Torino Porta Nuova',
-                'departure_time' => '2023-06-29 06:18:00',
-                'arrival_time' => '2023-06-29 09:58:00',
+                'departure_time' => '2023-07-29 06:18:00',
+                'arrival_time' => '2023-07-29 09:58:00',
                 'number_carriages' => 9,
                 'train_on_time' => false,
                 'delay' => 7,
@@ -63,8 +63,8 @@ class TrainsTableSeeder extends Seeder
                 'holding_name' => 'Trenitalia S.p.A',
                 'departure_station' => 'Venezia S. Lucia',
                 'arrival_station' => 'Milano Centrale',
-                'departure_time' => '2023-05-29 20:10:00',
-                'arrival_time' => '2023-05-29 23:35:00',
+                'departure_time' => '2023-08-29 20:10:00',
+                'arrival_time' => '2023-08-29 23:35:00',
                 'number_carriages' => 8,
                 'train_on_time' => false,
                 'delay' => 3,
@@ -142,6 +142,20 @@ class TrainsTableSeeder extends Seeder
                 'train_type' => 'Intercity',
                 'price' => 9.90,
                 'seats' => 180
+            ],
+            [
+                'holding_name' => 'Trenitalia S.p.A',
+                'departure_station' => 'Roma Termini',
+                'arrival_station' => 'Torino Porta Nuova',
+                'departure_time' => '2023-08-24 16:43:00',
+                'arrival_time' => '2023-08-24 17:33:00',
+                'number_carriages' => 15,
+                'train_on_time' => false,
+                'delay' => 2,
+                'cancelled_train' => false,
+                'train_type' => 'Frecciarossa',
+                'price' => 54.90,
+                'seats' => 350
             ]
         ];
 

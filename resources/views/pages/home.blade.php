@@ -9,7 +9,7 @@
         <h1 class="text-center fw-bold text-danger">Trenitalia Tickets</h1>
         <div class="row pt-5 pb-5">
             @foreach ($trains as $train)
-                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-4 mb-4">
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 mt-4 mb-4">
                     <div class="card">
                         <div class="card-body">
                             <div class="card-title fw-bold pt-3">
