@@ -20,9 +20,9 @@ return new class extends Migration
             $table->string('arrival_station', 200);
             $table->dateTime('departure_time');
             $table->dateTime('arrival_time');
-            $table->smallInteger('number_carriages')->unsigned();
+            $table->smallInteger('number_carriages')->unsigned(); // il campo può contenere solo valori positivi
             $table->boolean('train_on_time');
-            $table->integer('delay')->default(0)->unsigned();
+            $table->integer('delay')->default(0)->unsigned(); // default(0) indica che se non viene specificato alcun valore per delay durante l'inserimento di una nuova riga nella tabella, il valore predefinito sarà 0
             $table->boolean('cancelled_train');
             $table->string('train_type', 200);
             $table->decimal('price', 8, 2);
